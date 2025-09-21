@@ -4,10 +4,10 @@ public class TugasAlproPekan2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		    char inisial = 'J';       // inisial pemain
-	        int ranking = 8;          // ranking pemain dunia
-	        float poin = 6430.5f;     // total poin pemain
-	        boolean lolos;            // status kelolosan
+		    char inisial = 'J';       
+	        int ranking = 8;        
+	        float poin = 6430.5f;     
+	        boolean lolos;            
 
 	        // Logika kelolosan
 	        if (ranking <= 8 && poin >= 5000) {
