@@ -5,8 +5,8 @@ public class TugasAlproPekan2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		    char inisial = 'J';       // inisial pemain
-	        int ranking = 5;          // ranking pemain dunia
-	        float poin = 7250.5f;     // total poin pemain
+	        int ranking = 8;          // ranking pemain dunia
+	        float poin = 6430.5f;     // total poin pemain
 	        boolean lolos;            // status kelolosan
 
 	        // Logika kelolosan
