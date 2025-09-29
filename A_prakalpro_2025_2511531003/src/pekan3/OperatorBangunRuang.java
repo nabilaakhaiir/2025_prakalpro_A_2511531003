@@ -1,5 +1,7 @@
 package pekan3;
+
 import java.util.Scanner;
+
 public class OperatorBangunRuang {
 
 	public static void main(String[] args) {
@@ -24,7 +26,7 @@ public class OperatorBangunRuang {
 
 		        // Output
 		        System.out.println("Volume prisma segitiga = " + V);
-		
+		        input.close();
 	}
 
 }
