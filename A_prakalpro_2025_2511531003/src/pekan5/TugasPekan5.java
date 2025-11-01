@@ -61,6 +61,20 @@ public class TugasPekan5 {
 			System.out.print(" ");	
 		  }
 			System.out.println("|");
+			
+			System.out.print("|");
+			  for (int line = 0; line < 0; line ++) {
+				System.out.print(" ");		
+			  }	    	
+				System.out.print("<>");
+				for (int i = 1; i <= 12; i++) {
+				System.out.print(".");	
+			  }
+				System.out.print("<>");
+				for (int line = 0; line <0; line ++) {
+				System.out.print(" ");	
+			  }
+				System.out.println("|");
 							    	  
 		System.out.print("|");
 		  for (int line = 0; line < 2; line ++) {
