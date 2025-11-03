@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class SentinelLoop_2511531003 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
         Scanner console = new Scanner (System.in);
         int sum = 0;
         int number = 12;  //"dummy value", anything but 0
@@ -17,3 +16,4 @@ public class SentinelLoop_2511531003 {
 	}
 
 }
+   //nabila khairunnisa_251153003

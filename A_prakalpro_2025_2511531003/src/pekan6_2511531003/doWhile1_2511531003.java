@@ -2,8 +2,7 @@ package pekan6_2511531003;
 import java.util.Scanner;
 public class doWhile1_2511531003 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {		
         Scanner console = new Scanner (System.in);
         String phrase;
         do {
@@ -11,5 +10,7 @@ public class doWhile1_2511531003 {
         	phrase = console.next();
         } while (!phrase.equals("abcd"));
 	}
+	
+//nabila khairunnisa_2511531003
 
 }
