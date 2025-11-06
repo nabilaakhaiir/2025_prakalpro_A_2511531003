@@ -15,7 +15,7 @@ public class Lempardadu_2511531003 {
     	   System.out.println(dadu1 + " + " + dadu2 + " = "+ sum);
     	   tries ++;
        }
-       System.out.println("you want after " + tries + " tries!");
+       System.out.println("you won after " + tries + " tries!");
 
 	}
 

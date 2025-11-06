@@ -39,7 +39,7 @@ public class GamePenjumlahan_2511531003 {
 		if (guess == sum) {
 			return 1;
 		} else {
-			System.out.println("Wrong! the answer was" + sum);
+			System.out.println("Wrong! the answer was " + sum);
 			return 0;
 		}
 	}
