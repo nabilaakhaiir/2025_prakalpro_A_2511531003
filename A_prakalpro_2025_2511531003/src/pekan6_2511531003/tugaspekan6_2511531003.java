@@ -13,11 +13,11 @@ public class tugaspekan6_2511531003 {
         
         Scanner scan = new Scanner (System.in);
         while (running) {
-        tries ++;
            int dadu1 = rand.nextInt(6) + 1;
      	   int dadu2 = rand.nextInt(6) + 1;
      	   sum = dadu1+dadu2;
      	   System.out.println(dadu1 + " + " + dadu2 + " = "+ sum);
+     	  tries ++;
      	 
      	   
 	if (sum==7) {
