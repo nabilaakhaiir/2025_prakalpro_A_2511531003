@@ -19,7 +19,6 @@ public class tugaspekan6_2511531003 {
      	   System.out.println(dadu1 + " + " + dadu2 + " = "+ sum);
      	  tries ++;
      	 
-     	   
 	if (sum==7) {
 		System.out.println("Tebakan Anda Benar");
 		 System.out.println("Anda menang setelah " + tries + " percobaan!");
