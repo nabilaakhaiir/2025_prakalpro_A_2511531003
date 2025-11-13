@@ -7,7 +7,7 @@ public class PanggilMahasiswa2_2511531003 {
         Scanner input = new Scanner (System.in);
         System.out.print("NIM: ");
         String x = input.nextLine();
-        System.out.print("Nama: ");
+        System.out.print("NAMA: ");
         String y = input.nextLine();
         Mahasiswa_2511531003 a= new Mahasiswa_2511531003 ();
         a.setNim2(x);
