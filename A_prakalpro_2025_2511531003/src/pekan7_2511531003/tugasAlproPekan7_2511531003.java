@@ -29,8 +29,13 @@ public class tugasAlproPekan7_2511531003 {
 	    		System.out.println("--- REGISTRASI BERHASIL ---");
 	    		System.out.println("Akun untuk \"" + i + "\" telah berhasil dibuat");
 	    		System.out.println();
-	        } else	{
+	        }else {
 	        	System.out.println("--- REGISTRASI GAGAL ---");
+	        	
+	        } if (j.length ()<8)	{ 	
+	        	System.out.println("Password Anda \"" + i + "\" tidak valid (harus mengandung minimal 8 karakter) ");
+	        	System.out.println();
+	        }else {
 	        	System.out.println("Email Anda \"" + i + "\" tidak valid (harus mengandung '@' dan '.') ");
 	        	System.out.println();
 	}
