@@ -38,6 +38,7 @@ public class Akun_2511531003 {
    public boolean isPasswordValid() {
        return Password != null && Password.length() >=8;
    }
+   
    public boolean isEmailValid() {
 	   return Email != null && Email.contains("@") && Email.contains(".");
    

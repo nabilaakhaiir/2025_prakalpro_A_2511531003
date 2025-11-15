@@ -29,30 +29,31 @@ public class tugasAlproPekan7_2511531003 {
 	    		System.out.println("--- REGISTRASI BERHASIL ---");
 	    		System.out.println("Akun untuk \"" + i + "\" telah berhasil dibuat");
 	    		System.out.println();
+	    		System.out.println("--- DETAIL AKUN ---");
+		    	System.out.print("Username (Lowercase) : ");
+		    	System.out.println (i.toLowerCase ());
+		    	System.out.print("Email(Uppercase)     : ");
+		    	System.out.println (k.toUpperCase ());
+		    	System.out.print("ID Pengguna(Gabungan): ");
+		    	System.out.println (i + l);
+		
+		    	System.out.println();
+		        System.out.println("--- Uji Tipe Data (PIN Anda: "+l+") ---");
+		        int hasilInt = a.getPin() + 10;
+		        System.out.println ("PIN (int) + 10      = " + hasilInt);
+		        String hasilString = l + "10";
+		        System.out.println ("PIN (String) + \"" + 10 + "\" = " + hasilString);
+	
 	        }else {
 	        	System.out.println("--- REGISTRASI GAGAL ---");
 	        	
 	        } if (j.length ()<8)	{ 	
-	        	System.out.println("Password Anda \"" + i + "\" tidak valid (harus mengandung minimal 8 karakter) ");
-	        	System.out.println();
+	        	System.out.println("Password Anda \"" + j + "\" tidak valid (harus mengandung minimal 8 karakter) ");
 	        }else {
-	        	System.out.println("Email Anda \"" + i + "\" tidak valid (harus mengandung '@' dan '.') ");
-	        	System.out.println();
+	        	System.out.println("Email Anda \"" + k + "\" tidak valid (harus mengandung '@' dan '.') ");
 	}
-	    	System.out.println("--- DETAIL AKUN ---");
-	    	System.out.print("Username (Lowercase) : ");
-	    	System.out.println (i.toLowerCase ());
-	    	System.out.print("Email(Uppercase)     : ");
-	    	System.out.println (k.toUpperCase ());
-	    	System.out.print("ID Pengguna(Gabungan): ");
-	    	System.out.println (i + l);
-	
-	    	System.out.println();
-	        System.out.println("--- Uji Tipe Data (PIN Anda: "+l+") ---");
-	        int hasilInt = a.getPin() + 10;
-	        System.out.println ("PIN (int) + 10      = " + hasilInt);
-	        String hasilString = l + "10";
-	        System.out.println ("PIN (String) + \"" + 10 + "\" = " + hasilString);
+	        System.out.println("Silahkan coba lagi");
+	        System.out.println();
 }
 	}
 //nabila khairunnisa_2511531003
