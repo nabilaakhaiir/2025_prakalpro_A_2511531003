@@ -46,14 +46,14 @@ public class tugasAlproPekan7_2511531003 {
 	
 	        }else {
 	        	System.out.println("--- REGISTRASI GAGAL ---");
-	        	
-	        } if (j.length ()<8)	{ 	
+	        
+	         if (j.length ()<8)	{ 	
 	        	System.out.println("Password Anda \"" + j + "\" tidak valid (harus mengandung minimal 8 karakter) ");
-	        }else {
+	        } else  {
 	        	System.out.println("Email Anda \"" + k + "\" tidak valid (harus mengandung '@' dan '.') ");
-	}
+	        }
 	        System.out.println("Silahkan coba lagi");
-	        System.out.println();
+	        }
+     }
 }
-	}
 //nabila khairunnisa_2511531003
