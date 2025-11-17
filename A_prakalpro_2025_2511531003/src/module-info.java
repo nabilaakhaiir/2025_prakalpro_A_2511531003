@@ -6,4 +6,5 @@
  *
  */
 module A_prakalpro_2025_2511531003 {
+	requires java.desktop;
 }
