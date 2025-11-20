@@ -39,7 +39,7 @@ public class tugasAlproPekan7_2511531003 {
 		
 		    	System.out.println();
 		        System.out.println("--- Uji Tipe Data (PIN Anda: "+l+") ---");
-		        int hasilInt = a.getPin() + 10;
+		        int hasilInt = a.getPin() + 10;  
 		        System.out.println ("PIN (int) + 10      = " + hasilInt);
 		        String hasilString = l + "10";
 		        System.out.println ("PIN (String) + \"" + 10 + "\" = " + hasilString);
