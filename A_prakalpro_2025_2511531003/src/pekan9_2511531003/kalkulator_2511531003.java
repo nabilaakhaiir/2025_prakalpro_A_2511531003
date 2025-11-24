@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.Font;
 
-public class kakulator_2511531003 extends JFrame {
+public class kalkulator_2511531003 extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -50,7 +50,7 @@ public class kakulator_2511531003 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					kakulator_2511531003 frame = new kakulator_2511531003();
+					kalkulator_2511531003 frame = new kalkulator_2511531003();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -62,7 +62,7 @@ public class kakulator_2511531003 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public kakulator_2511531003() {
+	public kalkulator_2511531003() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 303, 364);
 		contentPane = new JPanel();
