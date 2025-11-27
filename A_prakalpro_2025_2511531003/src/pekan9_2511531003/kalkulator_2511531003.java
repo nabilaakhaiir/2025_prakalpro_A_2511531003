@@ -316,6 +316,10 @@ public class kalkulator_2511531003 extends JFrame {
 				);
 		
 		btnPercent_1 = new JButton(".");
+		btnPercent_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		btnPercent_1.setFont(new Font("Tahoma", Font.BOLD, 18));
 		btnPercent_1.setBounds(78, 253, 68, 53);
 		contentPane.add(btnPercent_1);
